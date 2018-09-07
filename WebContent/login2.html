@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+
+<link type="text/css" rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+
+<h1>로그인</h1>
+
+<form>
+
+<table>
+
+<tr>
+	<table border="0">
+	
+		<tr>
+		<td colspan="4">
+		<table class="tableid">
+			<tr>
+			<td class="tdid">아이디</td>
+			<td>
+			<input type="text" id="id" name="id" required="required"
+		placeholder="최소 6자~최대 12자"autofocus="autofocus"/>
+			</td>
+			</tr>
+		</table>
+		</td>
+		</tr>
+		
+		<tr>
+		<td colspan="4">
+		<table class="tablepass">
+			<tr>
+			<td class="tdpass">비밀번호</td>
+			<td>
+			<input type="password" id="pass" name="pass" required="required"
+		placeholder="영문, 특수문자, 숫자 혼합 8~12자"/>
+			</td>
+			</tr>
+		</table>
+		</td>
+		</tr>
+		
+		<tr>
+		<td colspan="4">
+		<input type="submit" id="login" value="로그인">
+		</td>
+		</tr>
+		
+		<tr class="sub">
+		<td class="idsave"><input type="checkbox" name="idsave" id="idsave">
+		<label for="idsave">아이디 저장</label>
+		</td>
+		<td>아이디 찾기&nbsp;&nbsp;|</td>
+		<td>비밀번호 찾기&nbsp;&nbsp;|</td>
+		<td><a href="join2.html" target="_blank">회원가입</a></td>
+		</tr>
+		
+	</table>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>

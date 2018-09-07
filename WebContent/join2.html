@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<link type="text/css" rel="stylesheet" href="css/join.css">
+</head>
+<body>
+
+<form>
+<table class="title">
+
+<tr>
+<th>회원가입</th>
+<td id="first">| 퍼스트 드림과 함께 미래를 설계하세요</td>
+<td id="mypage">마이페이지 &gt; 회원가입</td>
+</tr>
+
+</table>
+
+
+
+
+<table class="notice">
+<tr>
+<td>다음의 회원정보를 입력하여 주시면 가입절차가 완료됩니다.
+</td>
+</tr>
+
+<tr>
+<td>허위로 작성된 가입정보일 경우 임의로 삭제처리될 수 있으니 주의해 주세요.</td>
+</tr>
+</table>
+
+
+
+
+
+
+<table border="1" class="main">
+<tr>
+<td>이름(실명)</td>
+<td><input type="text" name="name" required="required" autofocus="autofocus"></td>
+</tr>
+
+<tr>
+<td>생년월일</td>
+<td>
+<input type="date" name="birthday" required>
+<input type="radio" name="calendar" value="solar" id="solar" checked="checked">
+<label for="solar">양력 </label>
+<input type="radio" name="calendar" value="lunar" id="lunar">
+<label for="lunar">음력 </label>
+</td>
+</tr>
+
+<tr>
+<td>회원 ID</td>
+<td> <input type="text" name="id" required="required">
+<input type="button" name="idcheck" value="ID 중복확인">
+<br>회원ID는 가입 후 변경이 불가능합니다.
+<br> 회원ID와 비밀번호는 영문자로 시작하는 4~18자의 영문, 숫자를 조합하셔서
+<br> 공백없이 기입해주세요.
+</tr>
+
+<tr>
+<td>비밀번호</td>
+<td> <input type="password" name="pass" required="required">
+재입력 <input type="password" name="passcheck" required="required">
+</tr>
+
+<tr>
+<td>이메일</td>
+<td> <input type="email" name="email" required="required">
+<input type="checkbox" name="receiveemail" id="receiveemail" checked="checked">
+<label for="receiveemail">공지메일을 받음</label>
+</tr>
+
+<tr>
+<td>자택전화</td>
+<td><select name="telephone1">
+	<option value="00" selected="selected" disabled="disabled">국번</option>
+	<option value="02">02</option>
+	<option value="051">051</option>
+	<option value="052">052</option>
+	<option value="053">053</option>
+	<option value="032">032</option>
+	<option value="062">062</option>
+	<option value="042">042</option>
+	<option value="044">044</option>
+	<option value="031">031</option>
+	<option value="043">043</option>
+	<option value="041">041</option>
+	<option value="063">063</option>
+	<option value="061">061</option>
+	<option value="054">054</option>
+	<option value="055">055</option>
+	<option value="064">064</option>
+	<option value="070">070</option>
+</select>
+ - 
+<input type="tel" name="telephone2" required>
+ - 
+ <input type="tel" name="telephone3" required>
+</tr>
+
+<tr>
+<td>휴대폰</td>
+<td><select name="phone1">
+	<option value="00" selected="selected" disabled="disabled">국번</option>
+	<option value="010">010</option>
+	<option value="011">011</option>
+	<option value="016">016</option>
+</select>
+ - 
+<input type="tel" name="phone2" required>
+ - 
+ <input type="tel" name="phone3" required>
+ <input type="checkbox" name="receivemessage" id="receivemessage" checked="checked">
+<label for="receivemessage">상담전화와 문자메세지를 받음</label>
+</tr>
+
+<tr>
+<td>자택주소</td>
+<td><input type="text" name="zipcode1" required="required"> - 
+<input type="text" name="zipcode2" required="required">
+<br>
+<input type="text" name="address1" required="required">
+<br>
+<input type="text" name="address2" required="required">
+</tr>
+
+<tr>
+<td>직업</td>
+<td>
+<select>
+<option value="null" selected="selected" disabled="disabled">---------------</option>
+<option value="student">학생</option>
+<option value="salaryman">직장인</option>
+<option value="businessman">사업가</option>
+</select>
+</tr>
+
+<tr>
+<td>가입경로</td>
+<td> <p>구인구직사이트 </p>
+<input type="radio" name="jobsite" value="albamon" id="albamon">
+<label for="albamon">알바몬</label>
+<input type="radio" name="jobsite" value="albaheaven" id="albaheaven">
+<label for="albaheaven">알바천국</label>
+<input type="radio" name="jobsite" value="incruit" id="incruit">
+<label for="incruit">인쿠르트</label>
+<input type="radio" name="jobsite" value="jobkorea" id="jobkorea">
+<label for="jobkorea">잡코리아</label>
+<br />-----------------------------------------------------------
+<p>포탈사이트</p>
+<input type="radio" name="portalsite" value="naver" id="naver">
+<label for="naver">네이버검색</label>
+<input type="radio" name="portalsite" value="daum" id="daum">
+<label for="daum">다음검색</label>
+<input type="radio" name="portalsite" value="cafe" id="cafe">
+<label for="cafe">카페</label>
+<input type="radio" name="portalsite" value="blog" id="blog">
+<label for="blog">블로그</label>
+<br>-----------------------------------------------------------
+</td>
+</tr>
+
+
+<tr>
+<td align="center" colspan="2">
+<input type="submit" name="join" value="회원가입">
+<input type="button" name="cancle" value="취소·이전">
+</td>
+</tr>
+
+</table>
+
+
+</form>
+
+</body>
+</html>

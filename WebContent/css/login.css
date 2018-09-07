@@ -1,0 +1,63 @@
+
+
+h1{
+	font-family: '¸¼Àº °íµñ', 'Malgun Gothic';
+	font-weight: normal;
+	border-bottom: 1px solid #7BCBE4;
+}
+
+table{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#id, #pass{
+	height: 30px;
+	width: 265px;
+	border: none;
+}
+
+.tdid, .tdpass{
+	font-size: 13px;
+	text-align: left;
+	font-weight: bold;
+	text-indent: 1em;
+	color: gray;
+	width: 100px;
+}
+
+.tableid, .tablepass{
+	border: 1px solid #BDBDBD;
+}
+
+#login{
+	margin: 10px 0 5px 0;
+	height: 50px;
+	width: 380px;
+	background-color: #009FD3;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	
+}
+
+.sub{
+	font-size: 10px;
+	color: #353535;
+}
+
+.idsave{
+	width: 180px;
+	text-align: left;
+	color: #353535;
+}
+
+table td a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #353535;
+}
